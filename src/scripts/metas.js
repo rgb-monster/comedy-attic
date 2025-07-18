@@ -2,7 +2,7 @@ export const metas = [
     {
         show_type: "absolute-killers",
         slug: "absolute-killers",
-        title: 'Absolute Killers',
+        title: "Absolute Killers",
         tags: ["compilation"],
         cover: "/show-assets/killers/cover.webp",
         cover_thumb: "/show-assets/killers/cover-thumb.png",
@@ -10,41 +10,45 @@ export const metas = [
         description: "Dark comedy (by nice comedians)",
         tickets: "https://www.edfringe.com/tickets/whats-on/1-mc-and-3-absolute-killers-of-comedy",
     },
-    // {
-    //     show_type: "pof---4pm",
-    //     slug: "pof",
-    //     title: 'Pick of fringe 4pm',
-    //     tags: ["compilation"],
-    //     cover: "/show-assets/pof/cover.webp",
-    //     cover_thumb: "/show-assets/pof/cover-thumb.webp",
-    //     short_description: "Dark comedy (by nice comedians)",
-    //     description: "Dark comedy (by nice comedians)",
-    //     tickets: "https://www.edfringe.com/tickets/",
-    // },
-    // {
-    //     show_type: "pof---9pm",
-    //     slug: "pof",
-    //     title: 'Pick of fringe 9pm',
-    //     tags: ["compilation"],
-    //     cover: "/show-assets/pof/cover.webp",
-    //     cover_thumb: "/show-assets/pof/cover-thumb.webp",
-    //     short_description: "Dark comedy (by nice comedians)",
-    //     description: "Dark comedy (by nice comedians)",
-    //     tickets: "https://www.edfringe.com/tickets/",
-    // },
+    {
+        show_type: "pof---4pm",
+        slug: "pof",
+        title: "Pick of fringe 4pm",
+        tags: ["compilation"],
+        cover: "/show-assets/pof/cover.webp",
+        cover_thumb: "/show-assets/pof/cover-thumb.png",
+        short_description:
+            "13th annual Scottish Comedy Festival's Pick of the Fringe, an award-nominated showcase featuring a rotating lineup of top comedians",
+        description:
+            "Scottish Comedy Festival’s official Pick of the Fringe showcase returns for a 13th hilarious year with another hand-picked selection of our favorite acts from across the Fringe. Rick Molland, resident compere of Edinburgh’s late night Comedy Attic, presents an ever-changing line-up of some of the best comics the Fringe has to offer, all crammed into one amazing show. 'A must–see for Scottish comedy lovers' **** (BroadwayBaby.com). 'Rick Molland is perfect for the role of compere' (ThreeWeeks). 'Stand-out stand-up' (Rip It Up). Perth Fringe Comedy Award nominated.",
+        tickets: "https://www.edfringe.com/tickets/whats-on/scotland-s-pick-of-the-fringe-16-30",
+    },
+    {
+        show_type: "pof---9pm",
+        slug: "pof",
+        title: "Pick of fringe 9pm",
+        tags: ["compilation"],
+        cover: "/show-assets/pof/cover.webp",
+        cover_thumb: "/show-assets/pof/cover-thumb.png",
+        short_description:
+            "13th annual Scottish Comedy Festival's Pick of the Fringe, an award-nominated showcase featuring a rotating lineup of top comedians",
+        description:
+            "Scottish Comedy Festival’s official Pick of the Fringe showcase returns for a 13th hilarious year with another hand-picked selection of our favorite acts from across the Fringe. Rick Molland, resident compere of Edinburgh’s late night Comedy Attic, presents an ever-changing line-up of some of the best comics the Fringe has to offer, all crammed into one amazing show. 'A must–see for Scottish comedy lovers' **** (BroadwayBaby.com). 'Rick Molland is perfect for the role of compere' (ThreeWeeks). 'Stand-out stand-up' (Rip It Up). Perth Fringe Comedy Award nominated.",
+        tickets: "https://www.edfringe.com/tickets/whats-on/scotland-s-pick-of-the-fringe-21-00",
+    },
 
     {
         show_type: "lock-in",
         slug: "lockin",
-        title: 'Comedy Lock-in at the Attic',
+        title: "Comedy Lock-in at the Attic",
         tags: ["compilation"],
         cover: "/show-assets/lock-in/cover.webp",
         cover_thumb: "/show-assets/lock-in/cover-thumb.png",
         short_description: "Catch top-tier stand-up every night at Edinburgh's long-running Fringe favorite",
-        description: "One of Edinburgh's longest-running gigs now runs nightly at the Fringe! One of our top resident MCs introduces two headline-level acts doing extended sets in our boutique comedy club above the iconic Beehive Inn. Grab a pint at one of the oldest pubs in Edinburgh, climb the stairs past the original death cell door of Calton Jail and enter our purpose-built boutique comedy club for a perfect way to round off your night at the Fringe. Over 100 five-star reviews and counting on Tripadvisor and Google Reviews. Don't miss out!",
+        description:
+            "One of Edinburgh's longest-running gigs now runs nightly at the Fringe! One of our top resident MCs introduces two headline-level acts doing extended sets in our boutique comedy club above the iconic Beehive Inn. Grab a pint at one of the oldest pubs in Edinburgh, climb the stairs past the original death cell door of Calton Jail and enter our purpose-built boutique comedy club for a perfect way to round off your night at the Fringe. Over 100 five-star reviews and counting on Tripadvisor and Google Reviews. Don't miss out!",
         tickets: "https://www.edfringe.com/tickets/",
     },
-
 ];
 
 let byShowType = {};
